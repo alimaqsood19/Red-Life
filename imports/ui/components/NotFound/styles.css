@@ -1,0 +1,31 @@
+.notFoundImage {
+    width: 40%; 
+    border-radius: 60px;
+
+}
+
+.notFoundImage img{
+    width: 100%;
+    border-radius: 60px;
+}
+
+
+.notFound{
+    width: 50%;
+    display: flex;
+    border: solid 2px #e1231a ;
+    border-radius: 30px;
+    margin: 2em 0 2em 2em;
+    justify-content: center;
+}
+
+.notFoundText{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 60%;
+}
+
+.red a {
+    color: #e1231a ;
+}

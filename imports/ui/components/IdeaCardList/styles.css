@@ -1,0 +1,25 @@
+.ideaCardList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.ideasHeader{
+    padding-top: 3em;
+    text-align: center;
+}
+
+.redFont{
+    color: #e1231a;
+}
+
+.ideasHeaderCard {
+    margin: 0 auto ;
+    border: 2px solid #e1231a ;
+  
+  }
+
+  .shareIdeasButton button{
+
+  }

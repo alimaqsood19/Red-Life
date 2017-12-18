@@ -1,0 +1,55 @@
+.homeContainer {
+    display: flex;
+    height: 95vh; /* viewport height - header - footer */
+    border-top-style: solid;
+    border-top-color: #ffffff; /* white */
+ 
+
+
+    background-color: #e1231a;
+    background-repeat: no-repeat;
+
+
+}
+
+.homeSection {
+    /* background-color: #e1231a; red */
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff; /* white */
+    font-family: 'Roboto', sans-serif;
+}
+
+.homeSection h1 {
+    font-size: 6rem;
+}
+
+.homeSection h1 span {
+    font-size: 5rem;
+}
+
+
+.loginSection {
+    /* background-color: #e8e8e8; grey */
+    background-color: white;
+
+    
+    background: 
+      url("/images/toronto-skyline-outline-silhouette.png"), white;
+
+      background-position: bottom left;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  
+    
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}

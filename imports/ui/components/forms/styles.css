@@ -1,0 +1,56 @@
+/*.loginForm button {
+    background-color: #e1231a; /* red */
+    /*color: #ffffff; /* white */
+    /*border-radius: 5px;
+    margin: 2rem 0 1rem 0;
+    padding: 0.25rem 1.25rem 0.25rem 1.25rem;
+}*/
+
+.form-group label {
+    display: inline-block;
+    width: 7rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+.form-group input {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.form-group button {
+    background-color: #e1231a; /* red */
+    color: #ffffff; /* white */
+    border-radius: 5px;
+    margin: 2rem 0 1rem 0;
+    padding: 0.25rem 1.25rem 0.25rem 1.25rem;
+
+    font-size: 1.25rem;
+}
+
+.registerContainer {
+    height: 95vh; /* viewport height - header - footer */
+}
+
+.registerSection {
+    /* background-color: #e8e8e8; grey */
+    min-height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: 
+    url("/images/toronto-skyline-outline-silhouette.png"), #e01710 ;
+      background-position:  bottom;
+      background-repeat: no-repeat;
+      color: white;
+
+}
+
+.registerButtonHomePage a{
+    color: #e1231a;
+}

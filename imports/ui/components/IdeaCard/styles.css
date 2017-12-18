@@ -1,0 +1,47 @@
+.ideaCard {
+    width: 98%;
+    margin: 1%;
+    padding: 1rem 0 1rem 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .ideaCard {
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .ideaCard {
+        width: 31.25%;
+    }
+}
+
+.ideaImage {
+    display: flex;
+    justify-content: center;
+}
+
+.ideaImage div {
+    width: 90%;
+}
+
+
+.voteCount span {
+    color: #e1231a;
+}
+
+.voteButton {
+    text-align: center;
+}
+
+.singleIdeaTitle{
+    text-transform: uppercase;
+    /* text-align: center; */
+}
+
+.ideaCardImage{
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    
+}

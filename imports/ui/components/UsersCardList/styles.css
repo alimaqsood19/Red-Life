@@ -1,0 +1,21 @@
+.profileCardList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+.usersHeader{
+    padding-top: 3em;
+    text-align: center;
+}
+.usersHeaderCard{
+    margin: 0 auto ;
+    /* border: 2px solid white ; */
+
+}
+
+.userCardList{
+    width: 100%;
+}

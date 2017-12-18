@@ -1,0 +1,83 @@
+.idea_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(38, 50, 56);
+    background-color: rgb(255, 255, 255);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.062) 0px 10px 30px, rgba(0, 0, 0, 0.151) 0px 1px 5px;
+    border-radius: 2px;
+    width:600px;
+    justify-content: center;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.title{
+    color: #e1231a;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.outer-body{
+    padding:4rem;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #b31217, #e1231a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #b31217, #e1231a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 80vh;
+}
+
+.create_idea{
+    padding:0;
+}
+
+.add-visual{
+    /* height:50px; */
+    /*width:100px;*/
+    width: 100%;
+    padding:0.25rem;
+    border-radius: 100px;
+    cursor: pointer;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border:2px solid #fff;
+    overflow:hidden;
+    background-image: linear-gradient(to bottom, #e1231a 50%, #FFFFFF 50%);
+    background-size: 100% 200%;
+    transition: all 1s;
+    color: #FFFFFF;
+    margin:2rem 0;
+
+}
+
+.add-visual:hover{
+    background-position: 0 -100%;
+    color:#2590EB;
+}
+
+.submitIdea {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageAnchor:focus{
+    border: 5px solid #e1231a;
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+.postCategories{
+    width: 50%;
+}
+
+#theme{
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+}

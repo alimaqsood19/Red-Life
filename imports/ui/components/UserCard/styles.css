@@ -1,0 +1,100 @@
+.userCard{
+    width: 98%;
+    margin: 1%;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .userCard {
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .userCard {
+        width: 31.25%;
+    }
+}
+
+/*.userImage {
+    display: flex;
+    justify-content: center;
+}
+.userImage div {
+    width: 90%;
+}*/
+
+.userImage img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.viewButton {
+    text-align: center;
+}
+
+.userNameButton{
+    display: flex;
+    flex-direction: column;
+    text-align : center;
+}
+
+.userCardImage{
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+/* .singleIdeaTitle{
+    text-transform: uppercase;
+
+} */
+
+
+
+/*
+
+
+.userCard{
+    width: 98%;
+    margin: 1%;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .userCard {
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .userCard {
+        width: 31.25%;
+    }
+}
+
+.userImage img {
+    width: 100%;
+}
+
+.viewButton {
+    text-align: center;
+}
+
+.userNameButton{
+    display: flex;
+    flex-direction: column;
+    text-align : center;
+}
+
+.userCardImage{
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+} */

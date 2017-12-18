@@ -1,0 +1,202 @@
+/* .flex{
+    display: flex;
+}
+
+.singleProfile {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 10% 0 10%;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+
+}
+
+.width-60{
+    width: 60%;
+}
+
+.align-self-center{
+    align-self: center;
+}
+
+.profileCardName{
+letter-spacing: .2em;
+font-size: 2em;
+
+}
+
+
+.profileImage img {
+    border-bottom-left-radius: 48px;
+    border-top-left-radius: 48px;
+    border-right: 3px solid #e1231a;
+    /* width: 100%; */
+
+/* } */
+
+/* .profileCard{
+    border: 3px #e1231a solid; */
+    /* height: 40vh; */
+/*} */
+
+/* New------------------------------------------------------------------------------------------------------------------- */
+
+.individual-profile-card{
+    padding:5rem 0 10rem 0;
+    background: #e52d27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #b31217, #e1231a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #b31217, #e1231a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: #fff;
+    font-family: 'Varela Round', Helvetica, sans-serif;
+    color: #666;
+  }
+
+.product-viewer {
+    margin:0 auto;
+    width: 478px;
+    height: 478px;
+    /* position: absolute; */
+    /* background: #B3D2FA; */
+    background: #fff;  /* fallback for old browsers */
+    /* top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); */
+    padding: 30px;
+    box-shadow: 0 70px 90px rgba(0, 0, 0, 0.1), 0 100px 100px rgba(0, 0, 0, 0.05);
+  }
+  .product-viewer header {
+    display: flex;
+    justify-content: flex-end;
+    /* float: left; */
+    width: 100%;
+    height: 36px;
+    margin-bottom: 30px;
+  }
+  .product-viewer header a {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+  }
+  .product-viewer header > a {
+    text-transform: uppercase;
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .product-viewer header ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 314px;
+    border-radius: 40px;
+    background: #fff;
+    height: 36px;
+  }
+  .product-viewer header ul li {
+    display: inline-block;
+    width: 32%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 36px;
+  }
+  .product-viewer header ul li a {
+    color: #6B6B6B;
+    font-size: 14px;
+  }
+  .product-viewer header ul li:hover a {
+    color: #8dbbf7;
+    font-weight: bold;
+  }
+  
+  .product-viewer_content {
+    float: left;
+    height: 430px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.2), 0 100px 100px rgba(0, 0, 0, 0.03);
+    width: calc( 478px - 60px);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content-slider {
+    float: left;
+    height: 430px;
+    margin: auto;
+    background: #fff;
+    width: calc( (478px*3 - 60px) );
+    -webkit-transition: -webkit-transform .35s ease;
+    transition: -webkit-transform .35s ease;
+    transition: transform .35s ease;
+    transition: transform .35s ease, -webkit-transform .35s ease;
+  }
+  .content-slider .slider-item {
+    width: 420px;
+    height: 100%;
+    position: relative;
+    float: left;
+    text-align: center;
+  }
+  figure img{
+      padding:1.5rem 0;
+  }
+  .content-slider .slider-item figcaption span {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  .content-slider .slider-item .desc {
+    /* padding:1rem; */
+    color: #666;
+    margin-bottom: 4px;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+  .content-slider .slider-item .desc h3 {
+    font-weight: bold;
+  }
+  .content-slider .slider-item .name {
+    font-size: 15px;
+    color: #e1231a;
+    margin-bottom: 12px;
+  }
+  .content-slider .slider-item .name h2 {
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .content-slider .slider-item span.price {
+    color: #666;
+    font-weight: normal;
+  }
+  .content-slider .slider-item img {
+    width: 100%;
+  }
+
+  .VoteCount{
+    font-size:11.5px;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: normal;
+  }

@@ -1,0 +1,23 @@
+.appProfileContent {
+  display: flex;
+  flex-direction: column;
+  min-height: 85vh;
+}
+
+.appProfile {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 10% 0 10%;
+
+  justify-content: center;
+}
+
+.profileContainer {
+  border-top: 4px solid #e1231a;
+}
+
+
+.profileCardButton{
+  margin-top: 4em;
+  /* padding-top: 3em; */
+}
